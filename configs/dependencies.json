@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "pulsar": {
+      "image": "pulsar",
+      "exposed_ports": ["6605","8080"],
+      "cmd": "/bin/pulsar",
+      "args": ["standalone"]
+    },
+    "mongo": {
+
+    },
+    "mysql": {
+
+    }
+  }
+}
